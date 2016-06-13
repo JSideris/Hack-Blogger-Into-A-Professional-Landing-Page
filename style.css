@@ -1,0 +1,70 @@
+/*
+Hack Blogger CSS file.
+Tested as of 2016-06-13
+Removes uneccessary junk from Blogger so you can use it as a quick landing page for your project. 
+This may break and require updating in the future. Also, it may be against Blogger's terms of service so use at your own risk.
+
+TESTED ON THE "TRAVEL" THEME.
+*/
+
+/*Uses this div to block the blogger menu at the top of the page.*/
+.descriptionwrapper{
+    position: fixed;
+    z-index: 2147483638;
+    top: 0px;
+    height: 30px;
+    left: 0px;
+    right: 0px;
+    background-color:black;
+    line-height: 30px;
+    font-size: 0px;
+    color: black;
+}
+
+/*This doesn't work for some reason - the navbar is probably generated via javascript when the page is loaded?*/
+#b-navbar{
+    display:none;
+    visibility: hidden;
+    opacity: 0;
+}
+
+/*Fix some spacing issues.*/
+
+.main-inner{
+    padding: 0px;
+}
+
+.main-outer{
+    margin-top: -30px;
+}
+
+/*The rest of the things here just remove all the pointless blog junk.*/
+
+#Attribution1{
+    display:none;
+}
+
+#Profile1{
+    display:none;
+}
+
+.blog-feeds{
+    display:none;
+}
+
+.post-footer{
+    display:none;
+}
+
+#BlogArchive1{
+    display:none;
+}
+
+.date-header{
+    display:none;
+}
+
+#blog-pager{
+    display:none;
+}
+
