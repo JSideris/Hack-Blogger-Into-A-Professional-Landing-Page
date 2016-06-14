@@ -33,6 +33,12 @@ Please check the wiki for this CSS file: https://github.com/JSideris/Hack-Blogge
     margin-top: -30px;
 }
 
+/*Disables the anchor text links of the article title from linking away from he home page.*/
+.entry-title>a{
+   pointer-events: none;
+   cursor: default;
+}
+
 /*The rest of the things here just remove all the pointless blog junk.*/
 
 #comments{
