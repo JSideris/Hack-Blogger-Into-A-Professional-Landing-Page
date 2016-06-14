@@ -1,10 +1,5 @@
 /*
-Hack Blogger CSS file.
-Tested as of 2016-06-13
-Removes uneccessary junk from Blogger so you can use it as a quick landing page for your project. 
-This may break and require updating in the future. Also, it may be against Blogger's terms of service so use at your own risk.
-
-TESTED ON THE "TRAVEL" THEME.
+Please check the wiki for this CSS file: https://github.com/JSideris/Hack-Blogger-Into-A-Professional-Landing-Page/wiki
 */
 
 /*Uses this div to block the blogger menu at the top of the page.*/
@@ -39,6 +34,11 @@ TESTED ON THE "TRAVEL" THEME.
 }
 
 /*The rest of the things here just remove all the pointless blog junk.*/
+
+#comments{
+    display: none;
+    
+}
 
 #Attribution1{
     display:none;
