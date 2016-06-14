@@ -36,8 +36,11 @@ Please check the wiki for this CSS file: https://github.com/JSideris/Hack-Blogge
 /*The rest of the things here just remove all the pointless blog junk.*/
 
 #comments{
+    display: none;    
+}
+
+.post-feeds{
     display: none;
-    
 }
 
 #Attribution1{
@@ -67,4 +70,3 @@ Please check the wiki for this CSS file: https://github.com/JSideris/Hack-Blogge
 #blog-pager{
     display:none;
 }
-
